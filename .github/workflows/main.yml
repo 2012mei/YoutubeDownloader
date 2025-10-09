@@ -110,7 +110,7 @@ jobs:
           if-no-files-found: error
 
   release:
-    if: ${{ github.ref_type == 'tag' }}
+    #if: ${{ github.ref_type == 'tag' }}
 
     needs:
       - format
